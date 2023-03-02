@@ -1,0 +1,54 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+img {
+  margin: 40px 0 0 0;
+  border: 5px solid #bab68d;
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+li {
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+article {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  img {
+    width: 300px;
+  }
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+
+  li {
+    display: block;
+    padding: 5px;
+  }
+}
